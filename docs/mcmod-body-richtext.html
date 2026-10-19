@@ -22,7 +22,7 @@
 
 <h2>一、模组简介</h2>
 <p><strong>机械动力：字字珠玑</strong>是「机械动力：航空学」无线红石打字机的客户端辅助模组。</p>
-<p>它解决的问题很简单：打字机激活后，按下绑定的按键应该只发送无线红石频率，而不应该打开其他模组的背包、地图、任务书或设置界面。</p>
+<p>本模组用于解决以下问题：打字机激活后，按下绑定的按键应只发送无线红石频率，而不应打开其他模组的背包、地图、任务书或设置界面。</p>
 
 <h2>二、问题背景</h2>
 <p>无线红石打字机激活时会接管键盘。但 Simulated 只在 NeoForge 的按键事件分发末尾清理原版按键状态。此时：</p>
@@ -91,7 +91,7 @@
 <ul>
   <li>本模组适用于任何服务端，因为它只修改客户端输入处理。</li>
   <li>打字机的按键编辑界面是普通界面，本模组不接管该界面，JEI 等界面快捷键仍可正常使用。</li>
-  <li>如果某个模组直接通过 GLFW 轮询物理按键，而不经过按键映射或 NeoForge 按键事件，该模组仍可能看到按键。绝大多数快捷键模组使用标准路径，已被覆盖。</li>
+  <li>如果某个模组直接通过 GLFW 轮询物理按键，而不经过按键映射或 NeoForge 按键事件，该模组仍可能看到按键。常见快捷键模组通常使用标准路径，本模组已覆盖这些情况。</li>
   <li>本模组与 Create、Create: Aeronautics、Simulated 官方无隶属关系。</li>
 </ul>
 
@@ -111,8 +111,8 @@
   <li>对 Simulated 使用反射调用，接口变化时安全回退。</li>
 </ul>
 
-<h2>十二、关于维护</h2>
-<p>作者本人没有代码能力，对模组的维护能力也有限。这个模组只是解决作者个人遇到的一个小问题；公开发布只是希望顺便便利其他用户。如果无法公开，作者也会继续自用。</p>
+<h2>十二、维护说明</h2>
+<p>本模组由个人开发，功能范围有限，更新频率可能较低。发布目的是为遇到同类按键冲突问题的玩家提供一个可用的解决方案。</p>
 
 <h2>十三、开源与致谢</h2>
 <ul>
@@ -120,7 +120,7 @@
   <li><strong>源码：</strong><a href="https://github.com/Gustav-800/create-every-key-a-gem">https://github.com/Gustav-800/create-every-key-a-gem</a></li>
   <li><strong>下载：</strong><a href="https://github.com/Gustav-800/create-every-key-a-gem/releases/tag/v1.0.0">GitHub Releases</a></li>
   <li><strong>Modrinth：</strong>审核通过后补充</li>
-  <li>感谢 Simulated Team 的 Create: Aeronautics 与无线红石打字机。</li>
+  <li>致谢：Simulated Team 的 Create: Aeronautics 与无线红石打字机。</li>
 </ul>
 
 </body>
