@@ -75,6 +75,12 @@ keyboard behaviour) instead of crashing.
 因此编译不依赖 Simulated 的 jar；如果将来 Simulated 修改 API，模组会记录警告并回退到
 正常键盘行为，而不是让游戏崩溃。
 
+## Project status / 关于维护
+
+I have no programming background and limited capacity to maintain this project. It was created to solve one small issue I ran into myself; I am publishing it in case it helps others. If it cannot be made public, I will simply keep using it privately.
+
+作者本人没有代码能力，对模组的维护能力也有限。这个模组只是解决作者个人遇到的一个小问题；公开发布只是希望顺便便利其他用户。如果无法公开，作者也会继续自用。
+
 ## Compatibility / 兼容性
 
 - Client-side only; works on any server because it never sends extra packets.

@@ -67,6 +67,10 @@ No. The event is still delivered to Simulated's handler; the addon only stops it
 **Can I configure which keys are blocked?**
 Not in 1.0.0. The typewriter already owns the keyboard while active, so every keyboard event is claimed. `Esc`, `F2` and `F11` are the deliberate exceptions.
 
+## Status and maintenance
+
+I have no programming background and limited capacity to maintain this project. It was created to solve one small issue I ran into myself; I am publishing it in case it helps others. If it cannot be made public, I will simply keep using it privately.
+
 ## Credits
 
 - Create: Aeronautics / Simulated by the Simulated Team — this addon targets their typewriter.
@@ -93,3 +97,7 @@ MIT.
 - 对 Simulated 使用反射调用；将来 API 变化时会记录警告并回退到正常键盘行为，不会崩溃。
 
 安装：把 jar 放进 `mods`，完全重启游戏。
+
+## 关于维护
+
+作者本人没有代码能力，对模组的维护能力也有限。这个模组只是解决作者个人遇到的一个小问题；公开发布只是希望顺便便利其他用户。如果无法公开，作者也会继续自用。

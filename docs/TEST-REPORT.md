@@ -5,8 +5,8 @@
 | | |
 | --- | --- |
 | Artifact | `create-every-key-a-gem-1.0.0.jar` |
-| Size | 77,049 bytes |
-| SHA-256 | `27431F11360C8B800B4D77F9848B407A4475CE87D606400384DC7C8934D95711` |
+| Size | 144,299 bytes |
+| SHA-256 | `E3810BC9118AA34DEF405935176248C6DCDA76310503825CDE420177AF3A63E8` |
 | JDK | OpenJDK 21.0.7 (Mojang `java-runtime-delta`) |
 | Target | Minecraft 1.21.1, NeoForge 21.1.262, Mixin 0.8.7 |
 | Build used for release | `build.ps1` |
