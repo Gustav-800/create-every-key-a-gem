@@ -112,6 +112,7 @@ A：1.0.0 面向 1.21.1 / NeoForge。其他版本需要重新适配并测试。
 ## 开源与致谢
 
 - 许可证：MIT
-- 源码：GitHub（发布后填写）
-- 下载：Modrinth / GitHub Releases（发布后填写）
+- 源码：https://github.com/Gustav-800/create-every-key-a-gem
+- 下载：https://github.com/Gustav-800/create-every-key-a-gem/releases/tag/v1.0.0
+- Modrinth：审核通过后补充
 - 感谢 Simulated Team 的 Create: Aeronautics 与无线红石打字机。
